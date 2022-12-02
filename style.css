@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(244, 243, 243);
+}
+h1{
+    width: 96%;
+    color: rgb(122, 22, 137);
+    text-align: center;
+    padding: 10px 10px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(122, 22, 137);
+    border-radius: 30px;
+}
+h1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(122, 22, 137);
+    border: 2px solid rgb(170, 171, 169);
+    border-radius: 30px;
+}
+#container{
+    width: 96%;
+    margin: 2% auto;
+    padding: 1% 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#user_input{
+    width: 96%;
+    margin: 2% auto;
+    padding: 1% 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#uinput{
+    font-size: 30px;
+    margin: 0px 5px;
+    padding: 8px 25px;
+    border-radius: 30px;
+}
+#osoutput{
+    border-radius: 30px;
+    margin: 0px 3px;
+    padding: 8px 25px;
+    width: 20vw;
+    border: 2px solid rgb(98, 102, 99)
+}
+#res{
+    color: rgb(122, 22, 137);
+    font-size: 30px;
+    margin: 0px 5px;
+    padding: 8px 25px;
+    border-radius: 30px;
+}
+#btn{
+    color: rgb(122, 22, 137);;
+    font-size: 30px;
+    margin: 0px 5px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid rgb(122, 22, 137);
+    border-radius: 30px;
+    width: 15vw;
+}
+#btn:hover{
+    color: white;
+    background-color: rgb(122, 22, 137);
+    border: 2px solid rgb(235, 226, 226);
+    border-radius: 30px;
+}
+#cur_from{
+    width: 20%;
+    padding: 2% 1%;
+    text-align: center;
+    border: 2px solid rgb(85, 15, 150);;
+    border-radius: 18px;
+    color: rgb(85, 15, 150);
+}
+#cur_to{
+    width: 20%;
+    padding: 2% 1%;
+    text-align: center;
+    border: 2px solid rgb(85, 15, 150);;
+    border-radius: 18px;
+    color: rgb(85, 15, 150);
+}
+#heading{
+    text-align: center;
+    text-decoration: underline;
+
+}
+#history{
+
+    text-align: center;
+}
+#output{
+    color: rgb(122, 22, 137);;
+    display: block;
+    width: 80%;
+    margin: 0% auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(122, 22, 137);
+    /* border-radius: 3%; */
+}
+#output:hover{
+    display: block;
+    color: white;
+    width: 80%;
+    margin: 0% auto;
+    background-color: rgb(122, 22, 137);
+    border: 2px solid rgb(253, 253, 253);
+    /* border-radius: 3%; */
+}

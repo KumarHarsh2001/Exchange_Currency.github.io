@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Currency Exchange Portal</h1>
+    <div id="container">
+        <select id="cur_from">
+            <option>--select--</option>
+        </select>
+        <select id="cur_to">
+            <option>--select--</option>
+        </select>
+    </div>
+    <div id="user_input">
+        <input autofocus type="text" id="uinput" placeholder="Enter Amount">
+        <button id="btn">Convert</button>
+        <div id="osoutput" >
+            <h4 id="res">Select Currency</h4>
+        </div>
+
+    </div>
+    <div id="output">
+        <h4 id="heading">History</h4>
+        <ul id="history">
+
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
