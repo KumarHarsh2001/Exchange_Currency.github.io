@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded',function(){
             document.querySelector('#cur_to').onchange = function(){
                 currency_to = this.value;
                 val_to = data.rates[(this.value)];
-                uc_val = (val_from*val_to);
+                uc_val = (val_from*val_to).toFixed(2);
             }
             document.querySelector('#btn').onclick = function(){
                     uval = parseInt(document.querySelector('#uinput').value);
                     acutal_val=(uval * uc_val).toFixed(2);
-                    document.querySelector('pre').innerHTML = `${acutal_val} ${currency_to}`;
+                    document.querySelector('#res').innerHTML = `1 ${currency_from} = ${uc_val} ${currency_to}`;
                     const li = document.createElement('li');
                     li.innerHTML = `${uval} ${currency_from} is equal to ${acutal_val} ${currency_to}`
                     document.querySelector('ul').append(li);

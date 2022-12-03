@@ -1,22 +1,26 @@
+*{
+    font-family: "Sora";
+}
 body{
     background-color: rgb(244, 243, 243);
 }
 h3{
     width: 98%;
-    color: rgb(122, 22, 137);
-    text-align: center;
-    padding: 4% 1%;
-    margin: 3% auto;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(122, 22, 137);
-    border-radius: 30px;
     font-size: large;
+    text-align: center;
+    margin: 3% auto;
+    padding: 4% 1%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 12, 110);
+    border: 2px solid rgb(37, 17, 57);
+    border-radius: 10px;
 }
 h3:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(122, 22, 137);
-    border: 2px solid rgb(170, 171, 169);
-    border-radius: 30px;
+    color: rgb(37, 17, 57);;
+    background-color: rgb(251, 251, 251);
+    border: 2px solid rgb(37, 17, 57);
+    border-radius: 10px;
+    
 }
 #container{
     width: 96%;
@@ -33,6 +37,7 @@ h3:hover{
     flex-flow: column wrap;
     align-items: center;
 }
+
 #uinput{
     font-size: 20px;
     border-radius: 10px;
@@ -44,21 +49,23 @@ h3:hover{
     margin: 2% 2%;
     padding: 4% 0%;
     font-size: 20px;
-    color: rgb(122, 22, 137);
-    background-color: white;
-    border: 2px solid rgb(122, 22, 137);
+    color: rgb(63, 12, 110);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(37, 17, 57);
     border-radius: 10px;
 }
 #btn:hover{
     width: 30%;
     font-size: 20px;
     color: white;
-    background-color: rgb(122, 22, 137);
-    border: 2px solid rgb(235, 226, 226);
+    background-color: rgb(63, 12, 110);
+    border: 2px solid rgb(37, 17, 57);
     border-radius: 10px;
 }
-/* #res{    
-} */
+#res{  
+    font-size: 15px;
+    font-weight: bold; 
+}
 #cur_from{
     width: 37%;
     padding: 2% 1%;
@@ -100,17 +107,30 @@ h3:hover{
     margin: 3% 0%;
 }
 #output{
-    color: rgb(122, 22, 137);
+    color: rgb(63, 12, 110);
     display: block;
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(122, 22, 137);
+    border: 2px solid rgb(37, 17, 57);
     border-radius: 10px;
     border-radius: 10px;
 }
 #output:hover{
     display: block;
     color: white;
-    background-color: rgb(122, 22, 137);
-    border: 2px solid rgb(253, 253, 253);
+    background-color: rgb(63, 12, 110);
+    border: 2px solid rgb(37, 17, 57);
     border-radius: 10px;
+}
+footer{
+    width: 100%;
+    margin-top: 2% ;
+    font-size: xx-small;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(58, 57, 58);
+    border-radius: 5px;
+}
+p{
+    margin: 1% auto ;
 }

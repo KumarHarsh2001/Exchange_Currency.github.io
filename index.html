@@ -5,33 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Convert</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Sora:wght@100;200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>Welcome to the Currency Exchange Portal</h3>
-    <div id="container">
-        <select id="cur_from">
-            <option>--select--</option>
-        </select>
-        <select id="cur_to">
-            <option>--select--</option>
-        </select>
-    </div>
-    <div id="user_input">
-        <input autofocus type="text" id="uinput" placeholder="Enter Amount">
-        <button id="btn">Convert</button>
-    </div>
-    <div id="wrap">
-        <div id="osoutput" >
-            <pre>Select Currency</pre>
+    <header>
+        <h3>Welcome to the Currency Exchange Portal</h3>
+    </header>
+    <div id="main">
+        <div id="container">
+            <select id="cur_from">
+                <option>--select--</option>
+            </select>
+            <select id="cur_to">
+                <option>--select--</option>
+            </select>
         </div>
-        <div id="output">
-            <h4 id="heading">History</h4>
-            <ul id="history">
-    
-            </ul>
+        <div id="user_input">
+            <input autofocus type="text" id="uinput" placeholder="Enter Amount">
+            <button id="btn">Convert</button>
+        </div>
+        <div id="wrap">
+            <div id="osoutput" >
+                <p id="res">Select Currency</p>
+            </div>
+            <div id="output">
+                <h4 id="heading">History</h4>
+                <ul id="history">
+        
+                </ul>
+            </div>
         </div>
     </div>
+    <footer>
+        <p>
+            This Page is created by Kumar Harsh
+        </p>
+        <p>
+            email :-&ensp;kumarharshalok2001@gmail.com
+        </p>
+        <p>
+            Copyright &copy;
+        </p>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
