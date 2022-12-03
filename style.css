@@ -1,17 +1,18 @@
 body{
     background-color: rgb(244, 243, 243);
 }
-h1{
-    width: 96%;
+h3{
+    width: 98%;
     color: rgb(122, 22, 137);
     text-align: center;
-    padding: 10px 10px;
-    margin:auto;
+    padding: 4% 1%;
+    margin: 3% auto;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(122, 22, 137);
     border-radius: 30px;
+    font-size: large;
 }
-h1:hover{
+h3:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(122, 22, 137);
     border: 2px solid rgb(170, 171, 169);
@@ -27,50 +28,39 @@ h1:hover{
 }
 #user_input{
     width: 96%;
-    margin: 2% auto;
-    padding: 1% 1%;
+    margin-left: 2%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    flex-flow: column wrap;
+    align-items: center;
 }
 #uinput{
-    font-size: 30px;
-    margin: 0px 5px;
-    padding: 8px 25px;
-    border-radius: 30px;
-}
-#osoutput{
-    border-radius: 30px;
-    margin: 0px 3px;
-    padding: 8px 25px;
-    width: 20vw;
-    border: 2px solid rgb(98, 102, 99)
-}
-#res{
-    color: rgb(122, 22, 137);
-    font-size: 30px;
-    margin: 0px 5px;
-    padding: 8px 25px;
-    border-radius: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 3% 3%;
+    width: 90%;
 }
 #btn{
-    color: rgb(122, 22, 137);;
-    font-size: 30px;
-    margin: 0px 5px;
-    text-align: center;
+    width: 30%;
+    margin: 2% 2%;
+    padding: 4% 0%;
+    font-size: 20px;
+    color: rgb(122, 22, 137);
     background-color: white;
     border: 2px solid rgb(122, 22, 137);
-    border-radius: 30px;
-    width: 15vw;
+    border-radius: 10px;
 }
 #btn:hover{
+    width: 30%;
+    font-size: 20px;
     color: white;
     background-color: rgb(122, 22, 137);
     border: 2px solid rgb(235, 226, 226);
-    border-radius: 30px;
+    border-radius: 10px;
 }
+/* #res{    
+} */
 #cur_from{
-    width: 20%;
+    width: 37%;
     padding: 2% 1%;
     text-align: center;
     border: 2px solid rgb(85, 15, 150);;
@@ -78,37 +68,49 @@ h1:hover{
     color: rgb(85, 15, 150);
 }
 #cur_to{
-    width: 20%;
+    width: 37%;
     padding: 2% 1%;
     text-align: center;
     border: 2px solid rgb(85, 15, 150);;
     border-radius: 18px;
     color: rgb(85, 15, 150);
 }
+
 #heading{
     text-align: center;
     text-decoration: underline;
-
+    
 }
 #history{
-
+    
     text-align: center;
+    font-size: 18px;
+}
+#wrap{
+    margin-left: 2%;
+    padding-left: 3%;
+    width: 90%;
+}
+#osoutput{
+    border-radius: 10px;
+    border: 2px solid rgb(63, 12, 110);
+    color: rgb(122, 22, 137);
+    font-size: 10px;
+    text-align: center;
+    margin: 3% 0%;
 }
 #output{
-    color: rgb(122, 22, 137);;
+    color: rgb(122, 22, 137);
     display: block;
-    width: 80%;
-    margin: 0% auto;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(122, 22, 137);
-    /* border-radius: 3%; */
+    border-radius: 10px;
+    border-radius: 10px;
 }
 #output:hover{
     display: block;
     color: white;
-    width: 80%;
-    margin: 0% auto;
     background-color: rgb(122, 22, 137);
     border: 2px solid rgb(253, 253, 253);
-    /* border-radius: 3%; */
+    border-radius: 10px;
 }

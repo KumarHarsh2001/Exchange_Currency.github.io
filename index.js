@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded',function(){
             }
             document.querySelector('#btn').onclick = function(){
                     uval = parseInt(document.querySelector('#uinput').value);
-                    acutal_val=(uval * uc_val).toFixed(3);
-                    document.querySelector('#res').innerHTML = `${acutal_val} ${currency_to}`;
+                    acutal_val=(uval * uc_val).toFixed(2);
+                    document.querySelector('pre').innerHTML = `${acutal_val} ${currency_to}`;
                     const li = document.createElement('li');
                     li.innerHTML = `${uval} ${currency_from} is equal to ${acutal_val} ${currency_to}`
                     document.querySelector('ul').append(li);

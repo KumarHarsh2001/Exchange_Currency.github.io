@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Currency Exchange Portal</h1>
+    <h3>Welcome to the Currency Exchange Portal</h3>
     <div id="container">
         <select id="cur_from">
             <option>--select--</option>
@@ -20,16 +20,17 @@
     <div id="user_input">
         <input autofocus type="text" id="uinput" placeholder="Enter Amount">
         <button id="btn">Convert</button>
-        <div id="osoutput" >
-            <h4 id="res">Select Currency</h4>
-        </div>
-
     </div>
-    <div id="output">
-        <h4 id="heading">History</h4>
-        <ul id="history">
-
-        </ul>
+    <div id="wrap">
+        <div id="osoutput" >
+            <pre>Select Currency</pre>
+        </div>
+        <div id="output">
+            <h4 id="heading">History</h4>
+            <ul id="history">
+    
+            </ul>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
