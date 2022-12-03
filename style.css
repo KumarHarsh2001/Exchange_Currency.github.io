@@ -123,6 +123,8 @@ h3:hover{
 }
 footer{
     width: 100%;
+    position: fixed;
+    bottom: 5px;
     margin-top: 2% ;
     font-size: xx-small;
     text-align: center;
