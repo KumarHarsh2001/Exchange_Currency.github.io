@@ -110,6 +110,7 @@ h3:hover{
     height: 40vh;
     color: rgb(63, 12, 110);
     display: block;
+    height: 20vh;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(37, 17, 57);
     border-radius: 10px;
@@ -118,6 +119,7 @@ h3:hover{
 #output:hover{
     height: 40vh;
     display: block;
+    height: 20vh;
     color: white;
     background-color: rgb(63, 12, 110);
     border: 2px solid rgb(37, 17, 57);
