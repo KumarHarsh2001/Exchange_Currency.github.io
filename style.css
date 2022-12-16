@@ -107,7 +107,7 @@ h3:hover{
     margin: 3% 0%;
 }
 #output{
-    
+    height: 40vh;
     color: rgb(63, 12, 110);
     display: block;
     background-color: rgb(255, 255, 255);
@@ -116,6 +116,7 @@ h3:hover{
     border-radius: 10px;
 }
 #output:hover{
+    height: 40vh;
     display: block;
     color: white;
     background-color: rgb(63, 12, 110);
