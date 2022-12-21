@@ -123,6 +123,7 @@
         background-color: rgb(255, 255, 255);
         border: 2px solid rgb(37, 17, 57);
         border-radius: 10px;
+        margin: auto;
     
     }
     /* #output:hover{
@@ -138,10 +139,11 @@
         text-align: center;
         text-decoration: underline;
     }
-    #hisory{
+    #history{
         position: relative;
         text-align: center;
         font-size: 18px;
+        margin: auto;
     }
     
     #footer_content{
@@ -155,6 +157,6 @@
     }
     p{
         margin: 1% auto ;
-    }
+    } 
 
   }
